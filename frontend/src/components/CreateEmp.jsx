@@ -16,7 +16,7 @@ function CreateEmp() {
     try{
       setLoading(true)
     //make HTTP POST req
-    let res= await fetch('https://atp-24eg105b12-capstone-mini-2.onrender.com/employee-api/employees',
+    let res= await fetch('https://week6-emp.onrender.com/employee-api/employees',
     {
       method:"POST",
       headers:{"Content-Type": "application/json"},
